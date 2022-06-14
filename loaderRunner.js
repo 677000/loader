@@ -4,8 +4,7 @@
 */
 var fs = require("fs");
 var readFile = fs.readFile.bind(fs);
-import loadLoader from './loadLoader.js';
-// var loadLoader = require("./loadLoader");
+var loadLoader = require("./loadLoader");
 
 function utf8BufferToString(buf) {
 	var str = buf.toString("utf-8");
